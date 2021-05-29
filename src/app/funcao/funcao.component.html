@@ -1,0 +1,138 @@
+<br>
+ <h2 id="azul">Faça ja a sua reserva (verificar disponibilidade)</h2>
+    <p>Em que período gostaria de hospedar-se em Hospedaria Vianense?</p>
+    <form action="loginn.html">
+    <table id="tab1">
+        <tr>
+            <td ><b> Data de check-in</b></td>
+            <td><b>Data de check-out</b></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><!--<img src="iconemes.png" alt="" width="20" height="20">
+                <select >
+                    <option value="00" class="zero" > Data de check-in</option>
+                    <option value="01" class="um">Janeiro</option>
+                    <option value="02" class="dois">Fevereiro</option>
+                    <option value="03" class="tres">Março</option>
+                    <option value="04" class="quatro">Abril</option>
+                    <option value="05" class="cinco">Maio</option>
+                    <option value="06" class="seis">Junho</option>
+                    <option value="07" class="sete">Julho</option>
+                    <option value="08" class="oito">Agosto</option>
+                    <option value="09" class="nove">Setembro</option>
+                    <option value="10" class="dez">Outubro</option>
+                    <option value="11" class="onze">Novembro</option>
+                    <option value="12" class="deze">Dezembro</option>
+                </select>-->
+                <input type="date" min="1990-01-01" required>
+            </td>
+            <td><!--<img src="iconemes.png" alt="" width="20" height="20">
+                <select >
+                    <option value="00" class="zero" > Data de check-out</option>
+                    <option value="01" class="um">Janeiro</option>
+                    <option value="02" class="dois">Fevereiro</option>
+                    <option value="03" class="tres">Março</option>
+                    <option value="04" class="quatro">Abril</option>
+                    <option value="05" class="cinco">Maio</option>
+                    <option value="06" class="seis">Junho</option>
+                    <option value="07" class="sete">Julho</option>
+                    <option value="08" class="oito">Agosto</option>
+                    <option value="09" class="nove">Setembro</option>
+                    <option value="10" class="dez">Outubro</option>
+                    <option value="11" class="onze">Novembro</option>
+                    <option value="12" class="deze">Dezembro</option>
+                </select>-->
+                <input type="date" max="2050-01-01" required>
+            </td>
+            
+        </tr>
+       
+    </table><br>
+    <table>
+        <tr>
+            <td >Quartos
+                <select>
+                    <option value="0">1</option>
+                    <option value="1">2</option>
+                    <option value="2">3</option>
+                    <option value="3">4</option>
+                    <option value="4">5</option>
+                    <option value="5">6</option>
+                    <option value="6">7</option>
+                    <option value="7">8</option>
+                    <option value="8">9</option>
+                    <option value="9">10</option>
+                    <option value="10">11</option>
+                    <option value="11">12</option>
+                    <option value="12">13</option>
+                  </select>
+            </td>
+            <td>Adultos
+                <select>
+                    <option value="0">1</option>
+                    <option value="1">2</option>
+                    <option value="2">3</option>
+                    <option value="3">4</option>
+                    <option value="4">5</option>
+                    <option value="5">6</option>
+                    <option value="6">7</option>
+                    <option value="7">8</option>
+                    <option value="8">9</option>
+                    <option value="9">10</option>
+                    <option value="10">11</option>
+                    <option value="11">12</option>
+                    <option value="12">13</option>
+                  </select>
+            </td>
+            <td>Crianças  
+                <select>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                  </select>
+            </td>
+        </tr>  
+    </table><br><br>
+    
+        <b> SELECIONA SEU GENERO:</b><br><br>
+        <input type="radio" id="male" name="gender" value="male">
+       <label for="female">Masculino</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="other">Femenino</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Outro</label>
+        <br>  <br>
+      
+        <b> SELECIONA SUA IDADE:</b><br><br>
+        <input type="radio" id="age1" name="age" value="30">
+        <label for="age1">0 - 30</label><br>
+        <input type="radio" id="age2" name="age" value="60">
+        <label for="age2">31 - 60</label><br>  
+        <input type="radio" id="age3" name="age" value="100">
+        <label for="age3">61 - 100</label><br><br>
+        
+      
+      
+      <b> SELECIONA A SUITE:</b><br><br>
+
+      
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" checked>
+        <label for="vehicle1"> Prata</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> Ouro</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> Premium</label><br><br>
+        <input type="submit" value="Verificar disponibilidade">   
+      </form>
+      <br><br><br><br>
