@@ -9,7 +9,7 @@ import { VantagemComponent } from './vantagem/vantagem.component';
 import { LoginComponent } from './login/login.component';
 
 
-const routes: Routes = [{ path: '', component: PrincipalComponent }, {path:'mona', component: SobrenosComponent}, {path:'funcao', component: FuncaoComponent}, {path:'vantagem', component: VantagemComponent}, {path: 'contacto', component: ContactoComponent}, {path:'login', component: LoginComponent}, {path:'cadastro', component: CadastroComponent}];
+const routes: Routes = [{ path: '', component: PrincipalComponent }, {path: 'mona', component: SobrenosComponent}, {path: 'funcao', component: FuncaoComponent}, {path: 'vantagem', component: VantagemComponent}, {path: 'contacto', component: ContactoComponent}, {path: 'login', component: LoginComponent}, {path: 'cadastro', component: CadastroComponent}];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

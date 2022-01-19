@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./top-bar.component.css']
 })
 export class TopBarComponent implements OnInit {
-  title = 'SISTEMA DE GESTÃO DE IMOVEIS'
+  title = 'SISTEMA DE GESTÃO DE IMOVEIS';
   constructor() { }
 
   ngOnInit(): void {
